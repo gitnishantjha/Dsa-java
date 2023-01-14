@@ -10,7 +10,7 @@ public class occurance {
 
     }
     public static int occurance(int key,int arr[],int i){
-        if(i==arr.length-1){
+        if(i==arr.length){
             return -1;
         }
         if(key==arr[i]){

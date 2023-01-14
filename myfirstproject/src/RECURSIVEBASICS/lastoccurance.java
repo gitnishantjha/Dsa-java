@@ -10,7 +10,7 @@ public class lastoccurance {
       System.out.println(position);
 }
 public static int lastoccurance(int key,int arr[],int i){
-    if(i==0){
+    if(i==-1){
         return -1;
     }
     if(key==arr[i]){
